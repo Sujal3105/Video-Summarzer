@@ -77,7 +77,7 @@ def extract_audio(source: str, tmp_dir: str):
         
         format_strategies = [
             "worst[ext=mp4]",
-            "worst",
+            
            
         ]
         
