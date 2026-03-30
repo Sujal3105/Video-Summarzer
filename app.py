@@ -76,8 +76,8 @@ def extract_audio(source: str, tmp_dir: str):
         import yt_dlp
         
         format_strategies = [
-            "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio",
-            "best[ext=mp4]/best[ext=webm]/best",
+            "worst[ext=mp4]",
+            "worst",
             "bestaudio/best",
         ]
         
