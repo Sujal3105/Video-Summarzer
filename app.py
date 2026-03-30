@@ -78,7 +78,7 @@ def extract_audio(source: str, tmp_dir: str):
         format_strategies = [
             "worst[ext=mp4]",
             "worst",
-            "bestaudio/best",
+           
         ]
         
         client_options = ["web", "android", "ios"]
